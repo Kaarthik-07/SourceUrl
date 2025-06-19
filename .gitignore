@@ -1,0 +1,70 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Notebook metadata
+*.nbconvert.ipynb
+*.nb.html
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode config (if using VSCode)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.out
+*.pid
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Hugging Face / Transformers cache
+.cache/
+huggingface/
+*.token
+*.model
+
+# LangChain, FAISS, Chroma, or vector DBs
+*.faiss
+chroma_db/
+vectorstore/
+
+*.jsonl
+*.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Conda environment files (optional)
+*.conda
+*.yaml
+
+# Dataset files (optional)
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+
